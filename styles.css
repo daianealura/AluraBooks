@@ -6,8 +6,27 @@ body{
 background-color: #EBECEE;
 
 }
-h1{
-      text-align: center;
-      
-   
+.menu_hamburguer{
+width:24px;
+height: 24px;
+background-image: url(./img/Menu.svg);
+background-repeat: no-repeat;
+background-position: center;
+display: inline-block;
+}  
+.cabeçalho{
+    background-color: rgb(186, 211, 233);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container_imagem {
+padding: 10px;
+margin: 20px;
+width: 30px;
 }
