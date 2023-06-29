@@ -1,6 +1,9 @@
 :root{
     --cor-de-fundo:#EBECEE;
-    font-size: 30px;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37% );
+font-size: 30px;
 }
 body{
 background-color: #EBECEE;
@@ -30,3 +33,14 @@ padding: 10px;
 margin: 20px;
 width: 30px;
 }
+.container_botao:checked ~ .lista-menu{
+display: block;
+}
+.lista-menu{
+display:inline-block;
+position: absolute;
+top:100%;
+width: 20vw;
+}
+.lista-meu_titulo.
+
