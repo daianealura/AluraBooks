@@ -36,7 +36,7 @@ padding: 10px;
 margin: 20px;
 width: 30px;
 }
-.container_botao:checked ~ .lista-menu{
+.container-botao:checked ~ .lista-menu{
 display: block;
 }
 .lista-menu{
@@ -45,31 +45,30 @@ position: absolute;
 top:100%;
 width: 20vw;
 }
-.lista-menu_titulo,
-.lista-menu_item{
+.lista-menu-titulo,
+.lista-menu-item{
 padding: 1em;
 background-color: var(--branco);
 }
 
-.lista-menu_titulo{
+.lista-menu-titulo{
 color: var(--laranja);
 font-weight: 700;
 }
 
 
-.lista-menu_link{
+.lista-menu-link{
 background: var(--azul-degrade);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip:text;
 text-transform: uppercase;
 }
-.container_botao{
-display: none;
-
-}
+.container-botao{
+    display:none;
+    }
 .lista-menu{
-display: none;
+display:none;
 
 }
 .banner{
@@ -84,4 +83,29 @@ display: none;
 }
 .banner-texto{
     font-weight: 500;
+    font-size:40px;
+    text-align:justify;
+    text-align:center
 }
+ .banner-pesquisa{
+background-color: transparent;
+border: 1px solid var(--branco);
+color: black;
+border-radius: 24px;
+padding: 1em;
+width: 100%;
+text-align: center;
+background: url("./img/Pesquisa.svg") no-repeat;
+background-position: 1em;
+font-size: 20px;
+ }
+
+ .carrossel_titulo{
+color: var(--laranja);
+background-color: var(--branco);
+text-align: center;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 700;
+padding: 1em 0 0.5em 0;
+ }
