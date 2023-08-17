@@ -112,6 +112,8 @@ padding: 1em 0 0.5em 0;
 
  .swiper-slide img{
 width: 50%;
+padding: 10px 55px;
+height: 340px;
 }
 
  .card-descricao{
@@ -135,4 +137,12 @@ border-radius: 25px;
 width: 80%;
 text-align: center;
 align-items: center;
+padding: 2em;
+margin: 2em;
  }
+ .titulo-mais-vendidos{
+text-align: center;
+color: #0055ff;
+font-size: 40px;
+ }
+ 
