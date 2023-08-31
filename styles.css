@@ -149,3 +149,23 @@ font-size: 40px;
 margin:5px 10px;
  }
  
+ .botoes-ancora{
+background-color: var(--laranja);
+padding: 7px 7px;
+color: var(--branco);
+font-weight: 700;
+text-decoration: none;
+ }
+
+ .descricao-imagem2{
+    width: 15%;
+ }
+ .topicos{
+    background: var(--azul-degrade);
+    text-align: center;
+ }
+ .Titulo-topicos{
+    color: #FFFFFF;
+    font-size: 500;
+    font-size: 20px;
+ }
