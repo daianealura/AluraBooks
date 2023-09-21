@@ -91,7 +91,7 @@ display:none;
 background-color: transparent;
 border: 1px solid var(--branco);
 color: black;
-border-radius: 24px;
+border-radius: 25px;
 padding: 1em;
 width: 100%;
 text-align: center;
@@ -188,7 +188,29 @@ color: #000000;
 background-color:#b3c4fc;
 text-align: center;
 padding: 1em;
- 
 
+ }
+ .contato-titulo{
+font-size: 1em;
+font-weight: 700;
+ }
+
+ .contato-texto{
+    font-size: 1em;
+    font-weight: 500;
+ }
+ .contato-email{
+    padding: 1em;
+border-radius: 2em;
+border: 5px solid var(black);
+width: 25%;
+color: #000000;
+background: url(./img/email.svg) no-repeat
+
+ }
+ .contato-email ::placeholder{
+ 
+font-family: 'Times New Roman', Times, serif;
+color: #EB9B00;
 
  }
